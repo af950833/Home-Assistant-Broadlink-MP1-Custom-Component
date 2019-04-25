@@ -13,11 +13,17 @@ In the configuration.yaml (or switch.yaml), you have to add the 4 switches like 
 switch:
 
 #Broadlink Livingroom MP1
+
   - platform: broadlink_mp1
+  
     host: 192.168.0.9
+    
     mac: 'B4:43:0D:AA:AA:AA'
+    
     type: mp11
+    
     friendly_name: 'Livingroom MP1 SW 1'
+    
 
   - platform: broadlink_mp1
     host: 192.168.0.9
@@ -42,6 +48,9 @@ The mac is the MP1's mac address and the host is a IP address of the MP1.
 
 If you set up, you can get the 4 switches and you can expose them in your frontend.
 switch.livingroom_mp1_sw_1
+
 switch.livingroom_mp1_sw_2
+
 switch.livingroom_mp1_sw_3
+
 switch.livingroom_mp1_sw_4
