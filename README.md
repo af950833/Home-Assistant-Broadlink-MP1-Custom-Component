@@ -13,7 +13,7 @@ In the configuration.yaml (or switch.yaml), you have to add the 4 switches like 
 switch:
 
 #Broadlink Livingroom MP1
-    platform: broadlink_mp1
+  - platform: broadlink_mp1
     host: 192.168.0.9
     mac: 'B4:43:0D:AA:AA:AA'
     type: mp11
@@ -24,13 +24,13 @@ switch:
     mac: 'B4:43:0D:AA:AA:AA'
     type: mp12
     friendly_name: 'Livingroom MP1 SW 2'
-
+    
   - platform: broadlink_mp1
     host: 192.168.0.9
     mac: 'B4:43:0D:AA:AA:AA'
     type: mp13
     friendly_name: 'Livingroom MP1 SW 3'
-
+    
   - platform: broadlink_mp1
     host: 192.168.0.9
     mac: 'B4:43:0D:AA:AA:AA'
