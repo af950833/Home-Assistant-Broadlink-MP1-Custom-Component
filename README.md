@@ -41,7 +41,7 @@ switch:
 The mac is the MP1's mac address and the host is a IP address of the MP1.
 
 If you set up, you can get the 4 switches and you can expose them in your frontend.
-switch.livingroom_mp1_sw_1
-switch.livingroom_mp1_sw_2
-switch.livingroom_mp1_sw_3
-switch.livingroom_mp1_sw_4
+  switch.livingroom_mp1_sw_1
+  switch.livingroom_mp1_sw_2
+  switch.livingroom_mp1_sw_3
+  switch.livingroom_mp1_sw_4
