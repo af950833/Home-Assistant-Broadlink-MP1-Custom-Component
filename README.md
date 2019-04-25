@@ -1,14 +1,19 @@
 # Home-Assistant-Broadlink-MP1-Custom-Component
 There is a sync delay in official component for Broadlink MP1 of HA. This code resolved the issue! (Tested in HA version 0.91.4)
 
+
 If you are using a Broadlink MP1(or MP1s), you have seen the sync delay when you turn on/off some slot with short interval.
 This code fixed the issue.
 
+
 To use this, you have create a costom_components/broadlink_mp1 directory in your config directory and copy & paste the switch.py
+
 
 ex> /home/homeassistant/.homeassistant/custom_components/broadlink_mp1/switch.py
 
+
 In the configuration.yaml (or switch.yaml), you have to add the 4 switches like the below.
+
 
 switch:
 
