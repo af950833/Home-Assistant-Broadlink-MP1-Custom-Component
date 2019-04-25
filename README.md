@@ -11,6 +11,7 @@ ex> /home/homeassistant/.homeassistant/custom_components/broadlink_mp1/switch.py
 In the configuration.yaml (or switch.yaml), you have to add the 4 switches like the below.
 
 switch:
+
 #Broadlink Livingroom MP1
   - platform: broadlink_mp1
     host: 192.168.0.9
