@@ -24,29 +24,49 @@ switch:
     
     friendly_name: 'Livingroom MP1 SW 1'
     
+    
 
   - platform: broadlink_mp1
+  
     host: 192.168.0.9
+    
     mac: 'B4:43:0D:AA:AA:AA'
+    
     type: mp12
+    
     friendly_name: 'Livingroom MP1 SW 2'
     
-  - platform: broadlink_mp1
-    host: 192.168.0.9
-    mac: 'B4:43:0D:AA:AA:AA'
-    type: mp13
-    friendly_name: 'Livingroom MP1 SW 3'
+    
     
   - platform: broadlink_mp1
+  
     host: 192.168.0.9
+    
     mac: 'B4:43:0D:AA:AA:AA'
+    
+    type: mp13
+    
+    friendly_name: 'Livingroom MP1 SW 3'
+    
+    
+    
+  - platform: broadlink_mp1
+  
+    host: 192.168.0.9
+    
+    mac: 'B4:43:0D:AA:AA:AA'
+    
     type: mp14
+    
     friendly_name: 'Livingroom MP1 SW 4'
+    
 
 
 The mac is the MP1's mac address and the host is a IP address of the MP1.
 
+
 If you set up, you can get the 4 switches and you can expose them in your frontend.
+
 switch.livingroom_mp1_sw_1
 
 switch.livingroom_mp1_sw_2
