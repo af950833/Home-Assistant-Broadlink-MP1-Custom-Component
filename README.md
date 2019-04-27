@@ -24,6 +24,8 @@ ex>
 
 
 
+
+
 In the configuration.yaml (or switch.yaml), you have to add the 4 switches like the below.
 
 
