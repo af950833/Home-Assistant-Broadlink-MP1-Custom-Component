@@ -21,6 +21,7 @@ ex>
 /home/homeassistant/.homeassistant/custom_components/broadlink_mp1/services.yaml
 
 /home/homeassistant/.homeassistant/custom_components/broadlink_mp1/switch.py
+
 --------------------------------------------------------------------------------- 
  
  
