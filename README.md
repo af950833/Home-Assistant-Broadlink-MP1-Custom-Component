@@ -11,7 +11,7 @@ To use this, you have create a custom_components/broadlink_mp1 directory in your
 
 
 ex>
-
+---------------------------------------------------------------------------------
 /home/homeassistant/.homeassistant/custom_components/broadlink_mp1/__init__.py
 
 /home/homeassistant/.homeassistant/custom_components/broadlink_mp1/const.py
@@ -21,7 +21,7 @@ ex>
 /home/homeassistant/.homeassistant/custom_components/broadlink_mp1/services.yaml
 
 /home/homeassistant/.homeassistant/custom_components/broadlink_mp1/switch.py
- 
+--------------------------------------------------------------------------------- 
  
  
 In the configuration.yaml (or switch.yaml), you have to add the 4 switches like the below.
