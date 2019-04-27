@@ -9,6 +9,7 @@ This code fixed the issue.
 To use this, you have create a custom_components/broadlink_mp1 directory in your config directory and copy & paste 5 files.
 
 
+
 ex>
 
 /home/homeassistant/.homeassistant/custom_components/broadlink_mp1/__init__.py
