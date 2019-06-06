@@ -67,7 +67,7 @@ def setup_platform(hass, config, add_entities, discovery_info=None):
     broadlink_device.timeout = config.get(CONF_TIMEOUT)
     try:
         broadlink_device.auth()
-    except socket.timeout:
+    except OSError:
         _LOGGER.error("Failed to connect to device")
 
     add_entities(switches)
@@ -125,7 +125,7 @@ class BroadlinkMP1(SwitchDevice):
     def _auth(self, retry=2):
         try:
             auth = self._device.auth()
-        except socket.timeout:
+        except OSError:
             auth = False
             if retry < 1:
                 _LOGGER.error("Timeout during authorization")
