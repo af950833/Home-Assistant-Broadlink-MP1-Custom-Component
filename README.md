@@ -27,7 +27,7 @@ ex>
  
 In the configuration.yaml (or switch.yaml), you have to add the 4 switches like the below.
 
-
+`
 switch:
 
 #Broadlink Livingroom MP1
@@ -77,7 +77,7 @@ switch:
     type: mp14
     
     friendly_name: 'Livingroom MP1 SW 4'
-    
+`
 
 
 The mac is the MP1's mac address and the host is a IP address of the MP1.
