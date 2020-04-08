@@ -3,6 +3,8 @@ There is a sync delay in official component for Broadlink MP1 of HA. This code r
 
 latest update:
 
+Apr 9th, 2020 - Updated the requirements for version 0.108.x
+
 Oct 31st, 2019 - Updated the requirements for version 0.101.x
 
 June 27th, 2019 - Updated the requirements for version 0.95.x
