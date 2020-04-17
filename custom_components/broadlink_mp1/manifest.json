@@ -2,7 +2,7 @@
   "domain": "broadlink_mp1",
   "name": "Broadlink",
   "documentation": "https://www.home-assistant.io/components/broadlink",
-  "requirements": ["broadlink==0.13.0"],
+  "requirements": ["broadlink==0.13.1"],
   "dependencies": [],
   "codeowners": ["@danielhiversen, modified by @af950833"]
 }
