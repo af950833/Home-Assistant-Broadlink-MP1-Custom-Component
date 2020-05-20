@@ -7,7 +7,7 @@ import socket
 import voluptuous as vol
 
 from homeassistant.components.switch import (
-    ENTITY_ID_FORMAT, PLATFORM_SCHEMA, SwitchDevice)
+    ENTITY_ID_FORMAT, PLATFORM_SCHEMA, SwitchEntity)
 from homeassistant.const import (
     CONF_COMMAND_OFF, CONF_COMMAND_ON, CONF_FRIENDLY_NAME, CONF_HOST, CONF_MAC,
     CONF_SWITCHES, CONF_TIMEOUT, CONF_TYPE)
@@ -72,7 +72,7 @@ def setup_platform(hass, config, add_entities, discovery_info=None):
 
     add_entities(switches)
 
-class BroadlinkMP1(SwitchDevice):
+class BroadlinkMP1(SwitchEntity):
     """Representation of an Broadlink switch."""
 
     def __init__(self, name, friendly_name, device, command_on, command_off):
