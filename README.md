@@ -3,6 +3,8 @@ There is a sync delay in official component for Broadlink MP1 of HA. This code r
 
 latest update:
 
+May 20th, 2020 - Updated the requirements & Changed from SwitchDevice to SwitchEntity for version 0.110.x
+
 Apr 30th, 2020 - Updated the requirements for version 0.109.x
 
 Apr 9th, 2020 - Updated the requirements for version 0.108.x
